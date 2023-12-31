@@ -258,7 +258,7 @@ span {
     }
 
     aside {
-        display: none;
+        display: block;
     }
 
     article {
