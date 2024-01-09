@@ -195,7 +195,6 @@ span {
 
 .exp #js,
 .exp #py,
-.exp #react,
 .extras #photoshop {
     width: 30%;
 }
@@ -212,7 +211,8 @@ span {
     width: 95%;
 }
 
-.lang #la {
+.lang #la,
+.exp #react {
     width: 10%;
 }
 
