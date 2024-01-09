@@ -176,8 +176,7 @@ span {
 .lang div div div,
 .extras div div div {
     background: linear-gradient(90deg, var(--main-color), var(--background-main-color));
-
-    width: 50%;
+    border-radius: 0 5px 5px 0;
 }
 
 .exp div:nth-of-type(2n),
@@ -187,40 +186,61 @@ span {
 }
 
 .exp #html,
-.exp #css,
-.extras #apof,
+.exp #css {
+    width: 95%;
+}
+
 .exp #json,
 .exp #md,
-.exp #figma {
-    width: 85%;
+.exp #figma,
+.extras #apof {
+    width: 90%;
 }
 
-.exp #js,
-.extras #photoshop {
-    width: 30%;
+.exp #js {
+    width: 15%;
 }
 
-.exp #node,
-.exp #astro {
+.exp #astro,
+.exp #mongo {
     width: 20%;
+}
+
+.exp #php {
+    width: 40%;
 }
 
 /* LANG */
 
 .lang #es {
-    width: 95%;
+    width: 98%;
 }
 
-.lang #la,
+.lang #en {
+    width: 60%;
+}
+
+.lang #ja,
 .exp #react {
     width: 10%;
 }
 
+.lang #la {
+    width: 5%;
+}
+
 /* EXTRAS */
 
-.extras #excel,
-.extras #command {
+.extras #excel {
     width: 70%;
+}
+
+.extras #photoshop {
+    width: 35%;
+}
+
+.extras #audiovisual {
+    width: 38%;
 }
 
 /* Scrollbar */
