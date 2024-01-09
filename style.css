@@ -189,12 +189,13 @@ span {
 .exp #html,
 .exp #css,
 .extras #apof,
-.exp #json {
+.exp #json,
+.exp #md,
+.exp #figma {
     width: 85%;
 }
 
 .exp #js,
-.exp #py,
 .extras #photoshop {
     width: 30%;
 }
