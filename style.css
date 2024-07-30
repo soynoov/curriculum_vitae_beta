@@ -201,7 +201,6 @@ span {
     width: 15%;
 }
 
-.exp #astro,
 .exp #mongo {
     width: 20%;
 }
@@ -231,7 +230,8 @@ span {
 
 /* EXTRAS */
 
-.extras #excel {
+.extras #excel,
+.exp #astro {
     width: 70%;
 }
 
