@@ -189,28 +189,44 @@ span {
   margin-right: 2em;
 }
 
-.exp #html,
-.exp #css {
-  width: 95%;
+.exp p {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
 }
 
-.exp #json,
-.exp #md,
-.extras #apof {
-  width: 95%;
+.exp p span {
+  color: var(--color-text);
+}
+
+.exp #wordpress,
+.exp #html-css,
+.exp #elementor-acf {
+  width: 90%;
+}
+
+.exp #woocommerce {
+  width: 85%;
+}
+
+.exp #n8n {
+  width: 75%;
+}
+
+.exp #make,
+.exp #figma,
+.exp #git {
+  width: 70%;
+}
+
+.exp #zapier,
+.exp #php,
+.exp #astro {
+  width: 65%;
 }
 
 .exp #js {
-  width: 45%;
-}
-
-.exp #mongo {
-  width: 20%;
-}
-
-.exp #php,
-.exp #ts {
-  width: 55%;
+  width: 60%;
 }
 
 /* LANG */
@@ -223,16 +239,9 @@ span {
   width: 60%;
 }
 
-.exp #react,
-.exp #py {
-  width: 10%;
-}
-
 /* EXTRAS */
 
-.extras #excel,
-.exp #astro,
-.exp #figma {
+.extras #excel {
   width: 70%;
 }
 
