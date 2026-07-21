@@ -209,6 +209,11 @@ span {
   width: 85%;
 }
 
+.exp #ia-automation {
+  width: 80%;
+}
+
+.exp #ia-llm,
 .exp #n8n {
   width: 75%;
 }
