@@ -219,9 +219,12 @@ span {
 }
 
 .exp #make,
-.exp #figma,
 .exp #git {
   width: 70%;
+}
+
+.exp #figma {
+  width: 50%;
 }
 
 .exp #zapier,
