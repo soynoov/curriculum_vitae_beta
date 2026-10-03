@@ -390,7 +390,12 @@ span {
 
 @media print {
   body { margin: 0; background: #fff; color: #000; }
-  .cv-actions, .featured-projects, .projects-nav { display: none !important; }
+  .cv-actions, .projects-nav, .featured-projects .button-link { display: none !important; }
+  .featured-projects .project-preview-grid { grid-template-columns: repeat(2, 1fr); gap: .5em; }
+  .featured-projects .project-card { padding: .6em; }
+  .featured-projects .project-card p { margin: .35em 0; font-size: .8em; }
+  .featured-projects .project-card h4 { margin-top: .2em; }
+  .featured-projects .project-card a { font-size: .8em; }
   header, aside, article, main {
     print-color-adjust: exact;
     -webkit-print-color-adjust: exact;
